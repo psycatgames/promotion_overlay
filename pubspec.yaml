@@ -1,0 +1,31 @@
+name: promotion_overlay
+description: Flutter plugin for displaying the native promotion overlay.
+repository: https://github.com/psycatgames/promotion_overlay
+version: 1.0.0
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+  flutter: ">=3.10.0"
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        default_package: promotion_overlay_foundation
+      macos:
+        default_package: promotion_overlay_foundation
+
+dependencies:
+  flutter:
+    sdk: flutter
+  promotion_overlay_foundation: ^1.0.0
+  promotion_overlay_platform_interface: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+topics:
+  - app-store
