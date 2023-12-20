@@ -117,13 +117,13 @@
     },
     {
       "name": "promotion_overlay_foundation",
-      "rootUri": "../../promotion_overlay_foundation",
+      "rootUri": "file:///Users/koenvestjens/.pub-cache/hosted/pub.dev/promotion_overlay_foundation-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "promotion_overlay_platform_interface",
-      "rootUri": "../../promotion_overlay_platform_interface",
+      "rootUri": "file:///Users/koenvestjens/.pub-cache/hosted/pub.dev/promotion_overlay_platform_interface-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -206,7 +206,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-12-20T15:29:47.211502Z",
+  "generated": "2023-12-20T15:42:48.678835Z",
   "generator": "pub",
   "generatorVersion": "3.2.0-97.0.dev"
 }

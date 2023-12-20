@@ -1,10 +1,7 @@
 # Promotion Overlay plugin
 
-Wraps platform-specific persistent storage for simple data
+Wraps a platform-specific promotional overlay banner
 (SKOverlay on iOS and macOS, TODO on Android, etc.).
-Data may be persisted to disk asynchronously,
-and there is no guarantee that writes will be persisted to disk after
-returning, so this plugin must not be used for storing critical data.
 
 |             | Android | iOS   | Linux | macOS  | Web | Windows     |
 |-------------|---------|-------|-------|--------|-----|-------------|
