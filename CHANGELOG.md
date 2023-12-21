@@ -2,6 +2,10 @@
 
 * Writing tests, implement Android functionality
 
+## 1.0.3
+
+Fixed wrong url in README.md
+
 ## 1.0.2
 
 Provided better documentation, added examples

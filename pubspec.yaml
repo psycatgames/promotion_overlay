@@ -1,7 +1,7 @@
 name: promotion_overlay
 description: Flutter plugin for displaying the native promotion overlay. Wraps a platform-specific promotional overlay banner (SKOverlay on iOS and macOS).
 repository: https://github.com/psycatgames/promotion_overlay
-version: 1.0.2
+version: 1.0.3
 
 environment:
   sdk: ">=2.17.1 <4.0.0"

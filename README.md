@@ -1,7 +1,7 @@
 # Promotion Overlay plugin
 
 [![pub](https://img.shields.io/badge/pub-v1.0.2-blue)](https://pub.dev/packages/promotion_overlay)
-[![pub points](https://img.shields.io/pub/points/promotion_overlay?color=2E8B57&label=pub%20points)](https://pub.dev/packages/share_plus/score)
+[![pub points](https://img.shields.io/pub/points/promotion_overlay?color=2E8B57&label=pub%20points)](https://pub.dev/packages/promotion_overlay)
 [![package publisher](https://img.shields.io/badge/publisher-PsyCat%20Games-%23ff1b3d)](https://pub.dev/publishers/psycatgames.com)
 
 Promotion Overlay is a Flutter plugin for iOS and macOS, with future support planned for Android. It shows a native promotional overlay using `SKOverlay`, enabling users to install advertised apps directly in the background without navigating to the App Store. It includes campaign tracking and control over the overlay's position and visibility.
