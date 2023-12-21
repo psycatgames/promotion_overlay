@@ -1,0 +1,26 @@
+name: promotion_overlay_example
+description: Demonstrates how to use the promotion_overlay plugin.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0-97.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  promotion_overlay:
+    # When depending on this package from a real application you should use:
+    #   promotion_overlay: ^x.y.z
+    # See https://dart.dev/tools/pub/dependencies#version-constraints
+    # The example app is bundled with the plugin so we use a path dependency on
+    # the parent directory to use the current plugin's version.
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

@@ -142,18 +142,18 @@ packages:
     dependency: "direct main"
     description:
       name: promotion_overlay_foundation
-      sha256: "8a50b956bf2cd1236d87aca1d6767d30c9a9281da70540dec68c9b7c3e3184cc"
+      sha256: "3482e1b2f16f06f3202f7c98efd95cb6b63910dff06518d5634c7221f43eecff"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.2"
   promotion_overlay_platform_interface:
     dependency: "direct main"
     description:
       name: promotion_overlay_platform_interface
-      sha256: "64bdc1ac045c694d392b03212f1732c8b2ef67465d184816ade22026da37b924"
+      sha256: "03b5d85672ab024b0d8b71632cf31f5468c46797abc5deebf10945d79f668c39"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   sky_engine:
     dependency: transitive
     description: flutter

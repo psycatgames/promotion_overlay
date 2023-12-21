@@ -2,6 +2,10 @@
 
 * Writing tests, implement Android functionality
 
+## 1.0.2
+
+Provided better documentation, added examples
+
 ## 1.0.1
 
 Changes to README.md
