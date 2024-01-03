@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:promotion_overlay_platform_interface/promotion_overlay_platform_interface.dart';
 
 /// The position of the overlay on the screen. This always should have the same values as can be found in the SKOverlay.Position enum (https://developer.apple.com/documentation/storekit/skoverlay/position).
@@ -54,6 +56,9 @@ class PromotionOverlay {
   /// Shows the promotion overlay with [appIdentifier] using SKOverlay (on iOS)
   /// Returns true if the overlay was shown, false otherwise
   Future<bool> show() {
+    // Ignore if not iOS, since this is an iOS only feature
+    if (Platform.isAndroid) return Future.value(false);
+
     return _store.show(
       this.appIdentifier,
       this.campaignToken,
@@ -65,6 +70,9 @@ class PromotionOverlay {
 
   /// Dismisses the promotion overlay
   Future<bool> dismiss() {
+    // Ignore if not iOS, since this is an iOS only feature
+    if (Platform.isAndroid) return Future.value(false);
+
     return _store.dismiss();
   }
 }

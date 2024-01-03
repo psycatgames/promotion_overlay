@@ -2,6 +2,10 @@
 
 * Writing tests, implement Android functionality
 
+## 1.0.4
+
+Ignore if not iOS, since this is an iOS only feature
+
 ## 1.0.3
 
 Fixed wrong url in README.md
