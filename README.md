@@ -13,7 +13,7 @@ Promotion Overlay is a Flutter plugin for iOS and macOS, with future support pla
 ## Usage
 To use this plugin, add `promotion_overlay` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/platform-integration/platform-channels).
 
-<img src="assets/screenshot.jpeg" alt="drawing" width="160"/>
+<img src="https://raw.githubusercontent.com/psycatgames/promotion_overlay/main/assets/screenshot.jpeg" alt="drawing" width="160"/>
 
 ### Instantiating the PromotionOverlay object
 You must then specify the following parameters:
