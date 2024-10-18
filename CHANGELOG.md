@@ -2,6 +2,10 @@
 
 * Writing tests, implement Android functionality
 
+## 1.0.5
+
+Full url for image in README
+
 ## 1.0.4
 
 Ignore if not iOS, since this is an iOS only feature
